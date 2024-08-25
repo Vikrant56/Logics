@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document </title>
+</head>
+<body>
+    <form action="">
+      <fieldset>
+        <legend>Job Application </legend>
+        <label for="First"> First Name :</label>
+        <input type="text" id = "First">
+         <br>
+        <br>
+        <label for="Second"> Last Name :</label>
+        <input type="password" id="Second">
+        <br>
+        <br>
+
+        <label for="Third">Email :</label>
+        <input type="email" id="Third">
+
+        <br><br>
+
+        <label for="Fourth"> Discribe somthing about you </label>
+        <br><br>
+        <textarea id="Fourth"></textarea>
+
+        <br><br>
+        <label for="Fifth">Loction :   </label>
+        <select id="Fifth">
+            <option>Indore</option>
+            <option>Mumbai</option>
+            <option>Delhi</option>
+            <option>Pune</option>
+            <option>Banglore</option>
+            <option>Mumbai</option>
+            <option>Goa</option>
+            <option>Jaipur</option>
+
+        </select>
+        
+        <br><br>
+        <button>Easy Apply</button>
+
+      </fieldset>
+
+    </form>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- tags used in form
+          1. form 
+          2. fieldset it make a field inside the form
+          3. legend  it is used inside the fieldset and it make a desing
+          4. lable   use to get the lable like username
+          5. input    type attribute is neccesary and it make a input box
+          6. textarea
+          7. select
+          8. option 
+          
+          "for" these attribute can connect the input to the lable -->
+    <form>
+        <fieldset>
+         <legend> form</legend>
+         <label> Username </label>
+         <input type="text"> <br> <br>
+         <label > password</label>
+         <input type="password"> <br> <br>
+
+         <button> login </button>
+
+        </fieldset>
+    </form>
+
+
+    <form>
+        <fieldset>
+            <legend> job Form</legend>
+            <label for="2"> Username</label>
+            <input type="text" id="2">
+            
+            <br><br>
+
+            <label> Pasword</label>
+            <input type="password">
+
+            <br>
+            
+            
+        </fieldset>
+    </form>
+    <br><br><br>
+
+    <form action="">
+
+
+        <input type="text"> <br><br>
+        <input type="password" name="" id=""> <br><br>
+        <input type="number"><br><br>
+        <input type="email"><br><br>
+        <input type="tel">  <!-- failur telephone number but it was failure but we have to use js regular fn-->
+        <br><br><input type="date"> <br><br>
+        <input type="datetime-local"> <br><br>
+        <input type="datetime"> <!-- it is also a failur it alows dupplicate var-->
+        <input type="checkbox" name="" id="">
+
+<!-- cheakbox is only fpor multiple selection and radtio is only for option -->
+        <h3>Courses</h3>
+        <input type="checkbox" id="1">
+        <label for="1">HTML</label>
+
+        <input type="checkbox" id="1">
+        <label for="1">HTML</label>
+
+        <input type="checkbox" id="1">
+        <label for="1">HTML</label>
+
+        <input type="checkbox" id="1">
+        <label for="1">HTML</label>
+
+
+
+        <br><br><br>
+
+  <!-- name attribute can connect all the radios with name-->
+        <h3>gender</h3>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <input type="radio" id="op" name="gender">
+        <label for="op">Other</label>
+
+    </form>
+</body>
+</html>
